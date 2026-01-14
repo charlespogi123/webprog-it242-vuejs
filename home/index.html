@@ -4,6 +4,7 @@
   <title>My first Vue page</title>
     <link rel="stylesheet" href="css/style.css?version=0.1">
     <link rel="stylesheet" href="css/flexbox-grid.css">
+    <link rel="stylesheet" href="css/images.css">
 </head>
 <body>
     <div class="container">
@@ -24,13 +25,21 @@
         <footer> Asia Pacific College   </footer>
     </div>
 
-
     <div id="app">
-    {{ message }}
+      {{ message }}
     </div>
 
+    <div id="app2">
+        <div>
+            <img v-for="x in manyFoods" v-bind:src="x">
+        </div>
+    </div>
+
+
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
 <script src="js/vue.js"></script>
+<script src="js/images.js"></script>
+
 
 </body>
-</html>
