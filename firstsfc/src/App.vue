@@ -1,5 +1,6 @@
 <template>
-  <h1>Food</h1>
+  <h1>Fruits</h1>
+  <food-item/>
   <food-item/>
   <food-item/>
   <food-item/>
@@ -15,4 +16,4 @@
     padding: 10px;
     background-color: lightgreen;
   }
-</style>
+</style> 
