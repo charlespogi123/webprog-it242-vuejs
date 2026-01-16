@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: #0f0f0f;
+  color: #eaeaea;
+  line-height: 1.6;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10%;
+  position: fixed;
+  width: 100%;
+  background: #0f0f0f;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+nav a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+.button-title {
+  display: block;
+  font-size: 1.17em;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10%;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.hero h2 {
+  font-size: 3rem;
+}
+
+.hero p {
+  margin: 15px 0;
+  color: #bbb;
+}
+
+.btn {
+  width: fit-content;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  text-decoration: none;
+  color: #fff;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fff;
+  display: block;
+  margin-bottom: 20px;
+}
+
+section {
+  padding: 80px 10%;
+  border-bottom: 1px solid;
+  border-image: linear-gradient(to right, transparent, #444, transparent) 1;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.card,
+.project {
+  border-left: 2px solid #444;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+.project span {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.dropdown-container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.dropdown {
+  display: block;
+}
+
+.dropdown-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+  font-family: inherit;
+}
+
+.photo {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 2px solid #333;
+  transition: transform 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.photo:hover {
+  transform: scale(1.02);
+  border-color: #fff;
+}
+
+.dropdown-content {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.2s ease, opacity 0.2s ease, margin-top 0.2s ease;
+  margin-top: 0;
+  padding: 0 10px;
+  border-left: 2px solid #fff;
+  color: #bbb;
+  max-width: 300px;
+}
+
+.dropdown-content.show {
+  max-height: 500px;
+  opacity: 1;
+  margin-top: 15px;
+  padding: 10px;
+}
