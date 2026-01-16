@@ -1,172 +1,121 @@
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
-  font-family: "Inter", sans-serif;
 }
 
 body {
-  background: #0f0f0f;
-  color: #eaeaea;
-  line-height: 1.6;
+  font-family: "Lucida Sans", sans-serif;
+  font-size: 17px;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 20px;
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header'
+    'menu'
+    'about_me'
+    'main'
+    'facts'
+    'footer';
+  background-color: white;
+  gap: 10px;  
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 10%;
-  position: fixed;
-  width: 100%;
-  background: #0f0f0f;
+.header {
+  grid-area: header;
+  background-color: purple;
+  text-align: center;
+  color: #ffffff;
 }
 
-nav ul {
-  display: flex;
-  gap: 20px;
-  list-style: none;
+.header > h1 {
+  font-size: 40px;
 }
 
-nav a {
-  color: #aaa;
-  text-decoration: none;
-}
-
-nav a:hover {
-  color: #fff;
-}
-
-.button-title {
-  display: block;
-  font-size: 1.17em;
-  font-weight: bold;
-  margin-top: 10px;
-}
-
-.hero {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0 10%;
-}
-
-.hero-content {
-  display: flex;
-  align-items: center;
-  gap: 30px;
-}
-
-.hero h2 {
-  font-size: 3rem;
-}
-
-.hero p {
-  margin: 15px 0;
-  color: #bbb;
-}
-
-.btn {
-  width: fit-content;
-  padding: 10px 20px;
-  border: 1px solid #fff;
-  text-decoration: none;
-  color: #fff;
-}
-
-.profile-pic {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid #fff;
-  display: block;
-  margin-bottom: 20px;
-}
-
-section {
-  padding: 80px 10%;
-  border-bottom: 1px solid;
-  border-image: linear-gradient(to right, transparent, #444, transparent) 1;
-}
-
-h2 {
-  margin-bottom: 20px;
-  font-size: 2rem;
-}
-
-.card,
-.project {
-  border-left: 2px solid #444;
-  padding-left: 20px;
-  margin-bottom: 30px;
-}
-
-.project span {
-  color: #888;
-  font-size: 0.9rem;
-}
-
-.dropdown-container {
-  display: flex;
-  gap: 30px;
-  flex-wrap: wrap;
-  margin-top: 20px;
-}
-
-.dropdown {
-  display: block;
-}
-
-.dropdown-button {
-  background: none;
-  border: none;
+.menu {
+  grid-area: menu;
+  }
+  
+.menu ul {
+  list-style-type: none;
+  margin: 0;
   padding: 0;
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  color: white;
-  font-family: inherit;
 }
 
-.photo {
-  width: 250px;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 12px;
-  border: 2px solid #333;
-  transition: transform 0.3s ease;
-  margin-bottom: 10px;
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #ffffff;
 }
 
-.photo:hover {
-  transform: scale(1.02);
-  border-color: #fff;
+.menu li:hover {
+  background-color: #0099cc;
+}
+  
+.content {
+  grid-area: main;
 }
 
-.dropdown-content {
-  max-height: 0;
-  overflow: hidden;
-  opacity: 0;
-  transition: max-height 0.2s ease, opacity 0.2s ease, margin-top 0.2s ease;
-  margin-top: 0;
-  padding: 0 10px;
-  border-left: 2px solid #fff;
-  color: #bbb;
-  max-width: 300px;
+.content > h1 {
+  font-size: 30px;
+  margin-bottom: 7px;
 }
 
-.dropdown-content.show {
-  max-height: 500px;
-  opacity: 1;
-  margin-top: 15px;
+.content > p {
+  margin-bottom: 7px;
+}
+
+.about_me {
+  grid-area: facts;
+  border: 1px solid #0099cc;
+  background-color: rgb(225, 138, 207);
   padding: 10px;
+}
+
+.about_me > h2 {
+  font-size: 20px;
+}
+
+.about_me li {
+  margin-bottom: 5px;
+}
+
+.facts {
+  grid-area: facts;
+  border: 1px solid #0099cc;
+  background-color: beige;
+  padding: 10px;
+}
+
+.facts > h2 {
+  font-size: 20px;
+}
+
+.facts li {
+  margin-bottom: 5px;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: #0099cc;
+  color: #ffffff;
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  .header {grid-area: 1 / span 6;}
+  .menu {grid-area: 2 / span 1;}
+  .about_me {grid-area: 2 / span 1;}
+  .content {grid-area: 2 / span 4;}
+  .facts {grid-area: 3 / span 6;}
+  .footer {grid-area: 4 / span 6;}
+}
+
+@media (min-width: 768px) {
+  .header {grid-area: 1 / span 6;}
+  .menu {grid-area: 2 / span 1;}
+  .about_me {grid-area: 2 / span 1;}
+  .content {grid-area: 2 / span 4;}
+  .facts {grid-area: 2 / span 1;}
+  .footer {grid-area: 3 / span 6;}
 }
