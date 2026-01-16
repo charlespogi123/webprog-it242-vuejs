@@ -45,8 +45,8 @@ Picture Gallery<br>
 
 <div class="footer"><p>My dawg</p></div>
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVNZUSVQNCtx-D7gvOihFgHpKSR7EquLDCog&s" alt="Girl with a jacket" width="300" height="300">
-<img src="https://scontent.fmnl17-5.fna.fbcdn.net/v/t39.30808-6/574580017_2055764778587901_6556554609750440073_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFHU3tm900CQrCslNbBA9HPEb-d0KPY--sRv53Qo9j764Xd2LaIsnZhtf2nn2ZXnEYiflKTecAD4banfg1wxDkF&_nc_ohc=MDv18zPtoHoQ7kNvwGUwa3E&_nc_oc=Adm4XSAr65OXUBw6suMh2TNUKUE2AeSXqQauUnK2k34whNeKCkyzyeVlGA9aQImvF3w&_nc_zt=23&_nc_ht=scontent.fmnl17-5.fna&_nc_gid=mtQ6ZxWFsYtLOlDdAhwNNg&oh=00_AfmXd-7pL0uNc69BnZLFX5HSmhK3-6Whax6mSo5GbwkEBA&oe=6937544A" alt="Girl with a jacket" width="300" height="300">
-<img src="https://scontent.fmnl17-2.fna.fbcdn.net/v/t1.6435-9/32482785_460622294377633_3297463142958759936_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEFZ6RoX5gGJt-no_oUINM-GhHApZyFvloaEcClnIW-Ws7v8klkXfT1qx8CzJLStvVLYJL9SQFCEcymoUh8ntWI&_nc_ohc=Qky6PG6k1scQ7kNvwEWu1yI&_nc_oc=AdkOrl09rR05-9FTDTNCUNchYRruwrx9AivzoHtKxQZOv76vUp3ZyXPRqZ3P54Q3zV4&_nc_zt=23&_nc_ht=scontent.fmnl17-2.fna&_nc_gid=FY4ClRyAwxVOoD1NBOz_-A&oh=00_Afl7sJPCS_jZJFGejdD_9tfeyJzspj2_UMQInBy2tX2oZQ&oe=69591E35" alt="Girl with a jacket" width="300" height="300">
+<img src="https://th.bing.com/th/id/OIP.aF3IBwRgd0cxWDnzTWKjbwAAAA?w=136&h=150&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3" alt="Girl with a jacket" width="300" height="300">
+<img src="https://bilyonaryo.com/wp-content/uploads/2024/10/dog.jpg" alt="Girl with a jacket" width="300" height="300">
  
 
   
