@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div  class="mango">
     <h2>{{ name }}</h2>
     <p>{{ message }}</p>
   </div>
@@ -16,4 +16,12 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+  .mango {
+    border: dashed black 1px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: lightgreen;
+  }  
+</style>
