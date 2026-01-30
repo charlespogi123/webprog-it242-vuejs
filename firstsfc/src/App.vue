@@ -1,11 +1,8 @@
 <template>
-  <h1>Fruits</h1>
+  <profile-layout/>
   <personal-profile/>
   <food-item/>
   <food-item2/>
+  <comment-form/>
+  <comment/>
 </template>
-
-<script></script>
-
-<style>
-</style> 
