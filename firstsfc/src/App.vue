@@ -5,4 +5,5 @@
   <food-item2/>
   <comment-form/>
   <comment/>
+  <rest-api/>
 </template>
